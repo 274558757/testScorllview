@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="100dp"
+              android:paddingLeft="10dp"
+                android:background="@android:color/white"
+
+    >
+    <TextView
+        android:id="@+id/tv_service_name"
+        android:layout_width="wrap_content"
+        android:layout_height="26dp"
+        android:text="普洗（轿车）"
+        android:textSize="18sp"
+        android:layout_marginTop="10dp"
+        />
+    <TextView
+        android:id="@+id/tv_service_content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="整车泡沫冲洗内饰简单清洁"
+        android:layout_below="@+id/tv_service_name"
+        android:layout_marginTop="5dp"
+        android:layout_toLeftOf="@+id/tv_pay"
+        android:paddingRight="14dp"
+        android:maxLines="2"
+        android:ellipsize="end"
+        />
+    <TextView
+        android:id="@+id/tv_service_price"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="¥32"
+        android:layout_below="@+id/tv_service_content"
+        android:layout_marginTop="15dp"
+
+        />
+
+   <!-- <view
+        style="@style/line"
+        android:layout_alignParentBottom="true"
+        />-->
+
+
+    <TextView
+        android:id="@+id/tv_pay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="买单"
+        android:layout_centerVertical="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="10dp"
+        android:gravity="center"
+        />
+
+
+
+
+</RelativeLayout>
